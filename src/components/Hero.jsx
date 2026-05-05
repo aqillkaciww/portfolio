@@ -35,7 +35,7 @@ export default function Hero() {
         <div className="hero-image-container">
           <div className="hero-image-inner">
             <Image 
-              src="/images/profile.png" 
+              src="/images/profile.jpg" 
               alt="Aqil Tamimi" 
               fill
               className="hero-image"

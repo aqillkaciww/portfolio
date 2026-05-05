@@ -1,7 +1,29 @@
+"use client";
+
 import Link from "next/link";
-import { Moon } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    // On mount, read the current theme from HTML class
+    setIsDark(document.documentElement.classList.contains("dark"));
+  }, []);
+
+  const toggleTheme = () => {
+    if (isDark) {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+      setIsDark(false);
+    } else {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+      setIsDark(true);
+    }
+  };
+
   return (
     <header className="navbar glass-effect">
       <div className="max-w-6xl px-6 navbar-container">
@@ -17,8 +39,12 @@ export default function Navbar() {
           <Link href="#contact" className="navbar-link">Contact</Link>
         </nav>
 
-        <button className="theme-toggle" aria-label="Toggle Theme">
-          <Moon size={20} />
+        <button 
+          className="theme-toggle" 
+          aria-label="Toggle Theme"
+          onClick={toggleTheme}
+        >
+          {isDark ? <Sun size={20} /> : <Moon size={20} />}
         </button>
       </div>
     </header>

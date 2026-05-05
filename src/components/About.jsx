@@ -9,7 +9,7 @@ export default function About() {
         <div className="about-image-wrapper">
           <div className="about-image-container">
             <Image 
-              src="/images/laptop.png"
+              src="/images/hutaw.jpg"
               alt="Modern laptop setup"
               fill
               className="hero-image" /* reusing the object-fit style */
