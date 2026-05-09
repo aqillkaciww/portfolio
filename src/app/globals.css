@@ -747,3 +747,63 @@ ul {
 .emailAqil:hover {
   color: rgb(10, 102, 194, 0.8);
 }
+
+/* Mobile (default, < 768px) */
+.music-embed-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.music-embed {
+  border-radius: 12px;
+  height: 300px;
+}
+
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) {
+  .music-embed-wrapper {
+    width: 100%;
+    margin: 0 auto; 
+  }
+
+  .music-embed {
+    border-radius: 14px;
+    height: 340px;
+  }
+}
+
+/* Desktop (1024px ke atas) */
+@media (min-width: 1024px) {
+  .music-embed-wrapper {
+    width: 60%;
+    margin: 0 auto; 
+  }
+
+  .music-embed {
+    border-radius: 16px;
+    height: 380px;
+  }
+}
+
+.playlistFav {
+  font-size: 2.25rem;
+  font-weight: 700;
+  /* margin-bottom: 1.5rem; */
+  margin-bottom: 1.5rem;
+  /* padding-bottom: 7vh; */
+  letter-spacing: -0.025em;
+  text-align: center;
+}
+
+.music-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.playlist-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin-bottom: 4rem;
+  text-align: center;
+}

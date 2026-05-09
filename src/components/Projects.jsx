@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Smart Home IoT Panel",
-    description: "A centralized dashboard to monitor and control IoT devices in real-time. Built with Next.js and integrated with MQTT protocols.",
-    image: "/images/dashboard.png",
-    tags: ["Next.js", "IoT"]
+    title: "EchoPedia",
+    description: "Sebuah platform edukasi tentang lingkungan yang juga .",
+    image: "/images/echoopedia.png",
+    tags: ["Next.js", "Supabase"]
   },
   {
     title: "Aura Commerce",
