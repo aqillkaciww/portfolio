@@ -5,7 +5,8 @@ const projects = [
     title: "EchoPedia",
     description: "platform edukasi lingkungan inovatif yang mengintegrasikan kesadaran ekologis dengan sistem manajemen limbah.",
     image: "/images/echoopedia.png",
-    tags: ["Next.js", "Supabase"]
+    tags: ["Next.js", "Supabase"],
+    link: "https://echoopedia.vercel.app/"
   },
   {
     title: "Aaqlin Kitchen (future project)",
