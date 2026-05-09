@@ -9,7 +9,7 @@ export default function Music() {
         <div className="music-embed-wrapper">
           <iframe
             className="music-embed"
-            src="https://open.spotify.com/embed/playlist/13EFUxCSuU91mtX6nN3Qgr?utm_source=generator"
+            src="https://open.spotify.com/embed/playlist/13EFUxCSuU91mtX6nN3Qgr?utm_source=generator&theme=0"
             width="100%"
             height="380"
             frameBorder="0"
