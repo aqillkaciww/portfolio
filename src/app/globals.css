@@ -738,3 +738,12 @@ ul {
   transform: translateY(-5px);
 }
 
+.emailAqil {
+  color: rgb(10, 102, 194);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.emailAqil:hover {
+  color: rgb(10, 102, 194, 0.8);
+}

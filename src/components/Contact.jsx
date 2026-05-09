@@ -1,3 +1,5 @@
+import { FaThreads } from "react-icons/fa6";
+
 const LinkedinIcon = () => (
   <svg xmlns="http://www.0" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -22,9 +24,13 @@ const InstagramIcon = () => (
 );
 
 const contacts = [
-  { name: "LinkedIn", icon: <LinkedinIcon />, href: "#" },
-  { name: "GitHub", icon: <GithubIcon />, href: "#" },
-  { name: "Instagram", icon: <InstagramIcon />, href: "#" }
+  { 
+    name: "Threads", 
+    icon: <FaThreads size={20}/>, 
+    href:"https://www.threads.net/@aqillkaciww"
+  },
+  { name: "GitHub", icon: <GithubIcon />, href: "https://github.com/aqillkaciww/" },
+  { name: "Instagram", icon: <InstagramIcon />, href: "https://www.instagram.com/akilltaa/" }
 ];
 
 export default function Contact() {
@@ -48,7 +54,7 @@ export default function Contact() {
         </div>
 
         <p className="contact-email">
-          Or drop me a line at aqiltamimi6@gmail.com
+          Or drop me a line at <a href="mailto:aqiltamimi6@gmail.com" className="emailAqil">aqiltamimi6@gmail.com</a>
         </p>
       </div>
     </section>

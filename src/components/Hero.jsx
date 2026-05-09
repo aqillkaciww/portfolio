@@ -12,10 +12,10 @@ export default function Hero() {
           Hello, World!
         </div>
         
-        <h1 className="hero-title">
+        <h6 className="hero-title">
           Designing the future, <br />
           <span className="hero-title-gradient">one line at a time.</span>
-        </h1>
+        </h6>
         
         <p className="hero-subtitle">
           Frontend Developer | SIJA Student | Tech Enthusiast. Building clean, intuitive digital experiences that balance form and function.
