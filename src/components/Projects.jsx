@@ -3,14 +3,14 @@ import Image from "next/image";
 const projects = [
   {
     title: "EchoPedia",
-    description: "Sebuah platform edukasi tentang lingkungan yang juga .",
+    description: "platform edukasi lingkungan inovatif yang mengintegrasikan kesadaran ekologis dengan sistem manajemen limbah.",
     image: "/images/echoopedia.png",
     tags: ["Next.js", "Supabase"]
   },
   {
-    title: "Aura Commerce",
-    description: "A headless e-commerce solution providing a seamless shopping experience with blazingly fast page loads.",
-    image: "/images/ecommerce.png",
+    title: "Aaqlin Kitchen (future project)",
+    description: "Sebuah website pemesanan online untuk perusahaan catering bernama Aaqlin Kitchen.",
+    image: "/images/aaqlinkitchen.jpg",
     tags: ["Laravel", "Vue"]
   },
   {
