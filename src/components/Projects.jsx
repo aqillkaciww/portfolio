@@ -6,7 +6,7 @@ const projects = [
     description: "platform edukasi lingkungan inovatif yang mengintegrasikan kesadaran ekologis dengan sistem manajemen limbah.",
     image: "/images/echoopedia.png",
     tags: ["Next.js", "Supabase"],
-    link: "https://echoopedia.vercel.app/"
+    link: "https://echo-pedia.vercel.app/"
   },
   {
     title: "Aaqlin Kitchen (future project)",
@@ -29,14 +29,20 @@ export default function Projects() {
       
       <div className="projects-grid">
         {projects.map((project, index) => (
-          <div key={index} className="project-card">
+          <a key={index}
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+
+          <div className="project-card">
             <div className="project-image-wrapper">
               <Image 
                 src={project.image}
                 alt={project.title}
                 fill
                 className="project-image"
-              />
+                />
             </div>
             
             <div className="project-content">
@@ -54,6 +60,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
+        </a>
         ))}
       </div>
     </section>
