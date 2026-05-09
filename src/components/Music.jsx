@@ -3,7 +3,7 @@ export default function Music() {
     <section className="music-section px-6 py-16">
       <div className="max-w-4xl mx-auto">
         <h2 className="playlist-title">
-          Favorite Playlist 🎧
+          My Favorite Playlist 🎧
         </h2>
 
         <div className="music-embed-wrapper">

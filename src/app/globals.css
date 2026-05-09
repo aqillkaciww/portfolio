@@ -807,3 +807,13 @@ ul {
   margin-bottom: 4rem;
   text-align: center;
 }
+
+.footer-text{
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.footer-text:hover {
+  color: var(--foreground);
+  transition: all 0.3s ease;
+}

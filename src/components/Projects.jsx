@@ -11,13 +11,13 @@ const projects = [
     title: "Aaqlin Kitchen (future project)",
     description: "Sebuah website pemesanan online untuk perusahaan catering bernama Aaqlin Kitchen.",
     image: "/images/aaqlinkitchen.jpg",
-    tags: ["Laravel", "Vue"]
+    tags: ["Next.js", "Supabase"]
   },
   {
     title: "UI Component Library",
-    description: "A personal design system engineered with accessible, glassmorphic components for fast prototyping.",
-    image: "/images/code.png",
-    tags: ["Standard CSS", "React"]
+    description: "Website pemesanan villa secara online, juga Website pertama yang saya buat saat duduk di bangku SMK kelas 10.",
+    image: "/images/coklaxe.png",
+    tags: ["HTML5", "CSS3"]
   }
 ];
 
