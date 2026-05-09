@@ -27,7 +27,7 @@ const contacts = [
   { 
     name: "Threads", 
     icon: <FaThreads size={20}/>, 
-    href:"https://www.threads.net/@aqillkaciww"
+    href:"https://www.threads.net/@akilltaa"
   },
   { name: "GitHub", icon: <GithubIcon />, href: "https://github.com/aqillkaciww/" },
   { name: "Instagram", icon: <InstagramIcon />, href: "https://www.instagram.com/akilltaa/" }
